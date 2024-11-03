@@ -1,0 +1,30 @@
+/*!*************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./index.css ***!
+  \*************************************************************/
+
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Используем flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 100vh; /* Высота на весь экран */
+  }
+
+  .container {
+    text-align: center; /* Центрируем текст в контейнере */
+    margin-top: 20px; /* Добавляем отступ сверху */
+}
+
+h1 {
+    margin: 0; /* Убираем отступы у заголовка */
+}
+
+  img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px; /* Добавляем отступ сверху для расстояния между заголовком и изображением */
+    height: auto; /* Сохраняем пропорции изображения */
+  }
